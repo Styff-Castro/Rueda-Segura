@@ -1,7 +1,7 @@
 # Rueda-Segura :car: 
 Rueda_Segura: Sistema de Gestión Integral para Flotas de Vehículos Este proyecto consiste en un sistema de gestión integral para flotas de vehículos desarrollado en MySQL. Permite administrar de manera eficiente todos los aspectos relacionados con los vehículos, seguros, clientes, contratos, mantenimiento, repuestos y más.
 
-# Funcionalidades principales
+# Funcionalidades principales 📢
 Gestión de vehículos: Registro, modificación y eliminación de vehículos, incluyendo información detallada como matrícula, marca, modelo, seguro, tipo, año de fabricación, kilometraje, historial de mantenimiento e ITV.
 
 # Gestión de seguros: :closed_lock_with_key:
@@ -16,7 +16,7 @@ Registro y seguimiento de pólizas de seguro, incluyendo información sobre la c
 # Gestión de mantenimiento: :wrench:
 -Registro y seguimiento de mantenimientos preventivos y correctivos, incluyendo fechas, kilometraje, observaciones y repuestos utilizados.
 
-# Gestión de repuestos: 	:battery:
+# Gestión de repuestos: 	🔋
 -Registro y seguimiento de repuestos, incluyendo código, descripción, marca, modelo, stock, precio y proveedor.
 
 # Gestión de órdenes de trabajo: :clipboard:
