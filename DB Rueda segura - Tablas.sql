@@ -215,15 +215,3 @@ CREATE TABLE Citas (
     FOREIGN KEY (vehiculo_id) REFERENCES Vehiculos (vehiculo_id),
     FOREIGN KEY (tipo_de_mantenimiento_id) REFERENCES Tipo_de_Mantenimiento (tipo_de_mantenimiento_id)
 );
-
--- 22 Tabla Comunicacion
-CREATE TABLE Comunicacion (
-    comunicacion_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-    cliente_id INT NOT NULL,
-    vehiculo_id INT NOT NULL,
-    tipo_comunicacion VARCHAR(50) NOT NULL,
-    mensaje TEXT NOT NULL,
-    fecha_comunicacion DATE NOT NULL,
-    FOREIGN KEY (cliente_id) REFERENCES Clientes (cliente_id),
-    FOREIGN KEY (vehiculo_id) REFERENCES Vehiculos (vehiculo_id)
-);
