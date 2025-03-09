@@ -29,7 +29,7 @@ ORDER BY total_repuestos_utilizados DESC;
 SELECT c.nombre_razon_social
 FROM Clientes AS c
 INNER JOIN Contratos AS con ON c.cliente_id = con.cliente_id
-INNER JOIN Tipo_Contrato AS tc ON con.tipo_contrato_id = tc.tipo_contrato_id
+INNER JOIN Tipo_de_Contrato AS tc ON con.tipo_de_contrato_id = tc.tipo_de_contrato_id
 WHERE tc.nombre = 'Mantenimiento Completo' AND c.numero_de_vehiculos_flota > 5;
 -- Esta consulta identifica a los clientes que tienen contratos de mantenimiento completo y
 --  que además poseen más de 5 vehículos en su flota.
